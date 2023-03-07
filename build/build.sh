@@ -3,7 +3,7 @@ DST=/var/www/e-tech
 
 cd $SRC
 
-sudo yarn build
+yarn build
 
 sudo rm -r $DST/*
 
