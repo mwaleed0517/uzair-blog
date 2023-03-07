@@ -5,7 +5,7 @@ cd $SRC
 
 # yarn build
 
-sudo rm -r $DST/*
+sudo rm -rf $DST/*
 
 sudo cp $SRC/dist/e-tech/* $DST
 
