@@ -7,6 +7,6 @@ cd $SRC
 
 sudo rm -rf $DST/*
 
-sudo cp $SRC/dist/e-tech/* $DST
+sudo cp -rf $SRC/dist/e-tech/* $DST/.
 
 sudo systemctl restart nginx.service
