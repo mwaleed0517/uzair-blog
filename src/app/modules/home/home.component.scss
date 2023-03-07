@@ -1,0 +1,240 @@
+:host {
+
+    .container {
+        width: 100%;
+
+        .section-1 {
+            height: 100vh;
+            width: 100%;
+            position: relative;
+
+            background-image: url("/assets/images/home-bg.jpeg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+
+            .backgroung-overlay {
+                height: 100vh;
+                width: 100%;
+                position: absolute;
+                background-color: #2c2927;
+                opacity: 0.85;
+                transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+            }
+
+            .content {
+                z-index: 1;
+                height: 100vh;
+                width: 100%;
+                padding: 40px;
+
+                .title {
+                    font-size: 96px;
+                    color: #fff;
+                    margin-bottom: 160px;
+                }
+            }
+        }
+
+        .section-2 {
+            height: 1000px;
+            background-color: #f2f1e5;
+
+            .title {
+                line-height: 66px;
+                font-size: 52px;
+                margin-bottom: 60px;
+            }
+
+            .client {
+                height: 32px;
+                margin-bottom: 8px;
+
+                .logo {
+                    height: 32px;
+                    width: auto;
+                }
+
+                .name {
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-weight: 500;
+                    font-size: 20px;
+                }
+            }
+
+            .why-us {
+                margin-block: 120px;
+
+                .title {
+                    margin: 0px;
+                }
+
+                .content {
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 28px;
+                    font-family: Poppins-Regular;
+                    margin-block: 40px;
+                }
+
+                .details {
+                    font-size: 16px;
+                    line-height: 28px;
+                    font-weight: 500;
+                    font-family: Poppins-Regular;
+                }
+            }
+        }
+
+        .section-3 {
+            min-height: 820px;
+            background-color: #2c2927;
+
+            .content {
+                margin-top: -120px;
+
+                .requirement {
+                    width: 100%;
+                    height: fit-content;
+                    background-color: #fbe8a6;
+
+                    .content {
+                        margin: 0;
+                        padding: 40px;
+
+                        .title {
+                            margin-block: 0 36px;
+                            font-size: 36px;
+                        }
+
+                        .description {
+                            font-family: Poppins-Regular;
+                            font-size: 16px;
+                        }
+                    }
+
+                    .img {
+                        height: auto;
+                    }
+                }
+
+                .pick-up {
+                    width: 100%;
+                    color: #fff;
+                    background-color: #2c2927;
+
+                    .description {
+                        font-size: 52px;
+                        margin: 0;
+                        line-height: 66px;
+                    }
+
+                    .details {
+                        margin: 0;
+                        font-family: Poppins-Regular;
+                        font-size: 16px;
+                        line-height: 28px;
+                    }
+                }
+            }
+        }
+
+        .section-4 {
+            min-height: 880px;
+            background-color: #f2f1e5;
+
+            .content {
+                padding-block: 120px;
+
+                .title {
+                    color: #534a45;
+                    width: 100%;
+                    font-family: Poppins-Regular;
+                    line-height: 28px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin: 0;
+                    margin-bottom: 16px;
+                }
+
+                .pick-up {
+                    width: 100%;
+
+                    .description {
+                        font-size: 52px;
+                        margin: 0;
+                        line-height: 66px;
+                    }
+
+                    .details {
+                        margin: 0;
+                        color: #534a45;
+                        margin-top: 16px;
+                        font-family: Poppins-Regular;
+                        font-size: 20px;
+                        line-height: 28px;
+                    }
+                }
+
+                .gallery {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        .section-5 {
+            min-height: 920px;
+            background-color: #fbe8a6;
+
+            .content {
+                padding-block: 120px;
+
+                .about-us {
+                    width: 100%;
+
+                    .title {
+                        font-size: 52px;
+                        margin: 0;
+                        line-height: 66px;
+                        color: #2c2927;
+                    }
+
+                    .description {
+                        margin: 0;
+                        color: #534a45;
+                        margin-top: 16px;
+                        font-family: Poppins-Regular;
+                        font-size: 22px;
+                        line-height: 28px;
+                        margin-bottom: 60px;
+                    }
+
+                    .heading {
+                        margin-block: 52px 20px;
+                        font-size: 26px;
+                        line-height: 36px;
+                    }
+
+                    .details {
+                        font-family: Poppins-Regular;
+                        color: #534a45;
+                        font-size: 17px;
+                        line-height: 28px;
+                        margin: 0;
+                    }
+                }
+
+                .about-img {
+                    height: 100%;
+
+                    img {
+                        z-index: 1;
+                        margin-bottom: -220px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}

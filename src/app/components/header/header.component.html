@@ -1,0 +1,11 @@
+<div fxFlex="100" fxLayout="row" fxLayout.lt-md="row wrap" fxLayoutAlign="space-between center"
+    fxLayoutAlign.lt-sm="center start" fxLayoutGap.lt-sm="16px" class="header">
+    <!-- <a href="#" rel="home" aria-current="page"><img width="171" height="41" src="/assets/images/logo.svg"
+            class="logo-img" alt="My Blog" decoding="async"></a> -->
+    <div fxLayout="row" fxLayoutGap="20px">
+        <div class="nav-link" (click)="onRoute('home')" [class.selected]="currentRoute==='home'">HOME</div>
+        <div class="nav-link" (click)="onRoute('services')" [class.selected]="currentRoute==='services'">SERVICES</div>
+        <div class="nav-link" (click)="onRoute('contact')" [class.selected]="currentRoute==='contact'">CONTACT</div>
+    </div>
+    <button mat-flat-button class="btn">Get A Quote</button>
+</div>

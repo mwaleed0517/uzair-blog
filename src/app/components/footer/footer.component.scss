@@ -1,0 +1,41 @@
+:host {
+
+    footer {
+        min-height: 400px;
+        padding-top: 160px;
+        background-color: #fff;
+
+        .content {
+            border-bottom: 1px solid #6a5e585a;
+
+            .details {
+                color: #534a45;
+                margin-bottom: 68px;
+                font-family: Poppins-Regular;
+
+                .about {
+                    font-size: 18px;
+                }
+
+                .nav {
+                    text-decoration: none;
+                    font-size: 18px;
+                    cursor: pointer;
+                    color: #2c2927;
+                    transition: all .2s ease-in-out;
+                }
+
+                .nav:hover {
+                    color: #b89d3b;
+                }
+            }
+        }
+
+        .cr-text {
+            color: #534a45;
+            font-family: Poppins-Regular;
+            font-size: 14px;
+            line-height: 80px;
+        }
+    }
+}

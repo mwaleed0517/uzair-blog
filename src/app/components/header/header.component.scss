@@ -1,0 +1,47 @@
+:host {
+    
+    .header {
+        z-index: 1;
+        height: 40px;
+        font-family: Poppins-Regular;
+        font-size: 16px;
+        font-weight: 600;
+        transition: all .2s linear;
+
+        .nav-link {
+            color: #fff;
+            cursor: pointer;
+            line-height: 40px;
+            font-family: Poppins-Regular;
+            font-size: 16px;
+            font-weight: 400;
+            transition: all .2s linear;
+        }
+
+        .nav-link:hover {
+            color: #f3d97a;
+        }
+
+        .btn {
+            background-color: #fff;
+            height: 40px;
+            width: 140px;
+            line-height: 32px;
+            border: 0px;
+            font-family: Poppins-Medium;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            color: #534a45;
+            transition: all .2s linear;
+        }
+
+        .btn:hover {
+            background-color: #f3d97a;
+        }
+
+        .selected {
+            color: #f3d97a;
+        }
+    }
+}

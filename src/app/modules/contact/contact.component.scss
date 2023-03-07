@@ -1,0 +1,111 @@
+:host {
+
+    .container {
+        width: 100%;
+        background-color: #f2f1e5;
+
+        .text-1 {
+            font-size: 16px;
+            line-height: 28px;
+            font-family: Poppins-Regular;
+            color: #534a45 !important;
+        }
+
+        .section-1 {
+            min-height: 500px;
+            width: 100%;
+            position: relative;
+
+            background-image: url("/assets/images/home-bg.jpeg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+
+            .backgroung-overlay {
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                background-color: #2c2927;
+                opacity: 0.85;
+                transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+            }
+
+            .content {
+                z-index: 1;
+                min-height: 500px;
+                height: 100%;
+                width: 100%;
+                padding: 40px;
+
+                .line {
+                    height: 4px;
+                    background-color: #fbe8a6;
+                    padding-inline: 2px;
+                    margin-bottom: 20px;
+                }
+
+                .title {
+                    font-size: 96px;
+                    color: #fff;
+                    margin: 0px;
+                    margin-bottom: 80px;
+                }
+            }
+        }
+
+        .section-2 {
+            min-height: 700px;
+            padding-top: 120px;
+            background-color: #fbe8a6;
+            color: #2c2927;
+
+            .title {
+                line-height: 68px;
+                font-size: 52px;
+                margin: 0;
+            }
+
+            .text-1 {
+                font-family: Poppins-Medium;
+            }
+
+            .message-card {
+                min-height: 580px;
+                padding: 40px;
+                background-color: #fff;
+                color: #2c2927;
+
+                .title {
+                    line-height: 36px;
+                    font-size: 36px;
+                    margin-block: 12px 40px;
+                }
+
+                ::ng-deep {
+                    .mdc-notched-outline {
+                        background-color: #fafafa;
+                    }
+
+                    .mdc-button {
+                        color: #2c2927;
+                        font-size: 16px;
+                        font-family: Poppins-Medium;
+                        border-color: #2c2927;
+                        border-radius: 16px;
+                    }
+                }
+            }
+
+            ::ng-deep {
+                .mat-icon {
+                    margin-top: 2px;
+                    // font-size: 20px;
+                    // height: 20px;
+                    // width: 20px;
+                    color: #534a45 !important;
+                }
+            }
+        }
+    }
+}

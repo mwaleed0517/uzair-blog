@@ -1,0 +1,64 @@
+<div class="container" fxFlex="100" fxLayout="row wrap" fxLayoutAlign="center center">
+    <section class="section-1" fxFlex="100" fxLayout="row wrap" fxLayoutAlign="start space-between">
+        <div class="backgroung-overlay"></div>
+        <div class="content" fxLayout="row wrap" fxLayoutAlign="center space-between">
+            <header fxFlex="100" currentRoute="contact"></header>
+            <div fxFlex="1200px" fxFlex.md="800px" fxFlex.sm="600px" fxFlex.xs="400px" fxLayout="row wrap"
+                fxLayoutAlign="start start">
+                <div fxFlex="64px" class="line"></div>
+                <h1 fxFlex="100" class="title">Contact</h1>
+            </div>
+        </div>
+    </section>
+    <section class="section-2" fxFlex="100" fxLayout="row" fxLayoutAlign="center start">
+        <div fxFlex="1200px" fxFlex.md="800px" fxFlex.sm="600px" fxFlex.xs="400px" fxLayout="row"
+            fxLayout.lt-md="row wrap" fxLayoutAlign="space-between start">
+            <div fxFlex="40" fxFlex.md="34" fxFlex.lt-md="100" fxLayout="row wrap">
+                <h2 class="title" style="margin-top: 32px">We are here to help!</h2>
+                <div fxFlex="100" fxLayout="row" fxLayoutAlign="start start" fxLayoutGap="8px"
+                    style="margin-block: 28px 20px;">
+                    <mat-icon>location_on</mat-icon>
+                    <span class="text-1">Zubair shah road, street 13, building 2014, sector H-13</span>
+                </div>
+                <div fxFlex="100" fxLayout="row" fxLayoutAlign="start start" fxLayoutGap="8px">
+                    <mat-icon>phone</mat-icon>
+                    <span class="text-1">+92 321 998 3308</span>
+                </div>
+                <div fxFlex="100" fxLayout="row" fxLayoutAlign="start start" fxLayoutGap="8px"
+                    style="margin-block: 20px;">
+                    <mat-icon>smartphone</mat-icon>
+                    <span class="text-1">+92 304 430 9683</span>
+                </div>
+            </div>
+            <div fxFlex="600px" fxFlex.lt-md="100" fxLayout="row wrap" fxLayoutAlign="space-between start"
+                class="message-card">
+                <h3 fxFlex="100" class="title">Send us a message</h3>
+                <mat-form-field fxFlex="46" appearance="outline">
+                    <mat-label>First Name</mat-label>
+                    <input matInput placeholder="Enter First Name">
+                </mat-form-field>
+                <mat-form-field fxFlex="46" appearance="outline">
+                    <mat-label>Last Name</mat-label>
+                    <input matInput placeholder="Enter Last Name">
+                </mat-form-field>
+                <mat-form-field fxFlex="100" appearance="outline">
+                    <mat-label>Email Address</mat-label>
+                    <input matInput placeholder="Your Email Address">
+                </mat-form-field>
+                <mat-form-field fxFlex="100" appearance="outline">
+                    <mat-label>Subject</mat-label>
+                    <input matInput placeholder="Message Subject">
+                </mat-form-field>
+                <mat-form-field fxFlex="100" appearance="outline">
+                    <mat-label>Your Message</mat-label>
+                    <textarea matInput placeholder="Type Message" maxlength="612" rows="4"
+                        style="resize: none;"></textarea>
+                </mat-form-field>
+                <div fxFlex="100" fxLayoutAlign="end start">
+                    <button mat-stroked-button>Send Message</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <app-footer fxFlex="100" currentRoute="contact"></app-footer>
+</div>
