@@ -3,6 +3,8 @@ DST=/var/www/e-tech
 
 cd $SRC
 
+git pull
+
 # yarn build
 
 sudo rm -rf $DST/*
